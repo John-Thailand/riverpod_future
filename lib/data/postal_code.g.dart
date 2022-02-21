@@ -22,14 +22,14 @@ Map<String, dynamic> _$$_PostalCodeToJson(_$_PostalCode instance) =>
 
 _$_PostalCodeData _$$_PostalCodeDataFromJson(Map<String, dynamic> json) =>
     _$_PostalCodeData(
-      code: json['code'] as String,
+      prefcode: json['prefcode'] as String,
       ja: PostalCodeAddress.fromJson(json['ja'] as Map<String, dynamic>),
       en: PostalCodeAddress.fromJson(json['en'] as Map<String, dynamic>),
     );
 
 Map<String, dynamic> _$$_PostalCodeDataToJson(_$_PostalCodeData instance) =>
     <String, dynamic>{
-      'code': instance.code,
+      'prefcode': instance.prefcode,
       'ja': instance.ja,
       'en': instance.en,
     };

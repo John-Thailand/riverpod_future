@@ -18,7 +18,7 @@ class PostalCode with _$PostalCode {
 @freezed
 class PostalCodeData with _$PostalCodeData {
   const factory PostalCodeData({
-    required String code,
+    required String prefcode,
     required PostalCodeAddress ja,
     required PostalCodeAddress en,
   }) = _PostalCodeData;
